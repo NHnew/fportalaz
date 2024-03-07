@@ -57,13 +57,13 @@ const Login = () => {
                             <div className='otherway bg-black -mt-3 px-3'>Digər üsullar</div>
                         </div>
                         <div className='flex justify-between mt-4'>
-                            <div className='googlebtn flex items-center justify-center bg-zinc-900 mr-2 px-7 py-2 rounded-3xl '>
+                            <div className='googlebtn w-1/2 flex items-center justify-center bg-zinc-900 mr-2 px-7 py-2 rounded-3xl '>
                                 <FcGoogle />
                                 {
                                     action === 'Qeydiyyatdan keç!' ? <button className='ml-2 text-slate-400'>Google ilə giriş</button> : <button className='ml-2 text-slate-400'>Google ilə qeydiyyat</button>
                                 }
                             </div>
-                            <div className='applebtn flex items-center justify-center bg-zinc-900 px-7 py-2 rounded-3xl'>
+                            <div className='applebtn w-1/2 ml-2 flex items-center justify-center bg-zinc-900 px-7 py-2 rounded-3xl'>
                                 <FaApple />
                                 {
                                     action === 'Qeydiyyatdan keç!' ? <button className='ml-2 text-slate-400'>Apple ilə giriş</button> : <button className='ml-2 text-slate-400'>Apple ilə qeydiyyat</button>
