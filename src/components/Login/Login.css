@@ -4,17 +4,32 @@
     background-size: cover;
 }
 
+.samecolor {
+    background: -webkit-linear-gradient(#333EB8, #D515F9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media screen and (max-width: 375px) {
 
     .googlebtn,
     .applebtn {
-        padding: 5px 10px !important;
+        padding: 5px 10px;
         font-size: 9px;
     }
 
     .endtext,
     .parolforget {
         font-size: 10px !important;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:390px) {
+
+    .googlebtn,
+    .applebtn {
+        width: 160px;
+        height: 50px;
     }
 }
 
@@ -38,7 +53,7 @@
     }
 
     .logo {
-        width: 120px !important;
+        width: 150px !important;
     }
 
     .signtitle {
@@ -97,6 +112,11 @@
     }
 }
 
+@media screen and (min-width: 1900px) {
+    .logo {
+        width: 250px !important;
+    }
+}
 
 @media screen and (min-width: 2200px) {
 

@@ -7,6 +7,8 @@
     margin: 0;
     box-sizing: border-box;
     user-select: none;
+    outline: none;
+    font-family: "Gotham-Black", Arial, sans-serif !important;
 }
 
 
