@@ -10,12 +10,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-.googlebtn>button {
-    font-size: 13px;
-
-}
-
-.applebtn>button {
+.googlebtn,.applebtn {
     font-size: 13px;
 }
 

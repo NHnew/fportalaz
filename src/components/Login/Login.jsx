@@ -13,8 +13,8 @@ const Login = () => {
     const actionChnage = () => action === 'Qeydiyyatdan keç!' ? setAction('Giriş et!') : setAction('Qeydiyyatdan keç!');
 
     return (
-        <div className='sign flex w-full min-h-screen'>
-            <div className='register flex flex justify-center items-center w-1/2 text-white bg-black px-10 py-5'>
+        <div className='sign flex w-full min-h-screen bg-black'>
+            <div className='register flex justify-center items-center w-1/2 text-white px-5'>
                 <div>
                     <img className='logo w-48' src={Logo} alt="" />
                     <h1 className='signtitle text-4xl mt-12 mb-10'>Futbol dünyasına <span className='samecolor text-fuchsia-600'>keçid et!</span></h1>
@@ -52,7 +52,7 @@ const Login = () => {
                             }
                         </div>
                     </form>
-                    <div className='signfooter max-w-[410px] mt-16 border-t-2 border-gray-300'>
+                    <div className='signfooter max-w-[410px] mt-10 border-t-2 border-gray-300'>
                         <div className='flex justify-center'>
                             <div className='otherway bg-black -mt-3 px-3'>Digər üsullar</div>
                         </div>
