@@ -73,7 +73,7 @@ const Login = () => {
                         <div>
                             <p className='endtext text-sm mt-4'>
                                 {
-                                    action === 'Qeydiyyatdan keç!' ? <span className='mr-1'>Hesabınız yoxdur?</span> : <span className='mr-1'>Hesabınız var?</span>
+                                    action === 'Qeydiyyatdan keç!' ? <span className='mr-1'>Hesabın yoxdur?</span> : <span className='mr-1'>Hesabın var?</span>
                                 }
                                 <span onClick={actionChnage} className='samecolor text-fuchsia-600 cursor-pointer'>{action}</span>
                             </p>
