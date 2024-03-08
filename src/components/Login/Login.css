@@ -10,6 +10,15 @@
     -webkit-text-fill-color: transparent;
 }
 
+.googlebtn>button {
+    font-size: 13px;
+
+}
+
+.applebtn>button {
+    font-size: 13px;
+}
+
 @media screen and (min-width: 450px) and (max-width: 992px) {
 
     form,
